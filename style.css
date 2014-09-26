@@ -1,0 +1,20 @@
+html {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+div {
+    display: block;
+    margin: auto;
+}
+
+#nav {
+
+}
+
+.content img {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    height: auto;
+}
