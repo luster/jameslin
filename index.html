@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="og:title" content="James Meslin">
         <meta name="og:site_name" content="James Mesiln">
-        <meta name="og:url" content="http://jameslin.com">
-        <meta name="og:description" content="TODO">
+        <meta name="og:url" content="http://jameslinaudio.com">
+        <meta name="og:description" content="James Meslin is an audio engineer, mixer, producer, and songwriter based in New York.">
         <meta name="og:image" content="">
         <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100,400' rel='stylesheet' type='text/css'>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -14,14 +14,31 @@
         <link rel="stylesheet" type="text/css" href="/style.css">
         <title>James Meslin</title>
         <script>
-            // TODO: google analytics code
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-55220813-1', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+
         </script>
     </head>
     <body>
+        <div id="header">
+            <img src="img/logo.png" alt="Jameslin Logo" align="middle">
+            <span>Engineer | Mixer | Producer | Songwriter</span>
+        </div>
         <div id="nav">
-            <img src="img/logo.png" alt="Jameslin Logo">
-            <h2>James Meslin</h2>
-            <h4>Engineer | Mixer | Producer | Songwriter</h4>
+            <table>
+                <tr>
+                    <td><a onClick="nav('about');">About</a></td>
+                    <td><a onClick="nav('works');">Works</a></td>
+                    <td><a onClick="nav('gear');">Gear</a></td>
+                    <td><a onClick="nav('contact');">Contact</a></td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>
