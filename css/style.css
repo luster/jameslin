@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #ccc;
+    background: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    height: 100%;
+}
+
+#header, #footer {
+    background: #132056;
+}
+
+#header img {
+    vertical-align: middle;
+}
+
+#header span {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+#nav table {
+    margin: 0 auto 5px;
+    font-weight: 600;
+}
+
+#nav table tr td {
+    padding: 10px;
+}
+
+#content {
+    background: #202020;
+    margin: 0 auto;
+}
+
+.section {
+    display: none;
+    height: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+#nav table tr td a,
+#nav-landing img,
+div#footer table tbody tr td a img {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+}
+
+#nav table tr td a:hover,
+#nav-landing img:hover,
+#footer table tbody tr td a img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#landing {
+    margin: 0 auto;
+    width: 400px;
+}
+
+#landing div {
+    text-align: center;
+}
+
+#landing div img {
+    display: inline-block;
+}
+
+.slick-dots {
+    position: static;
+}
+
+.slick-dots li button:before {
+    color: #AAA;
+}
+
+.slick-dots li.slick-active button:before {
+    color: white;
+}
+
+#footer {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background: #132056;
+    height: 90px;
+    width: 100%;
+    position: relative;
+}
+
+table {
+    margin: 0 auto;
+}
+
+#footer table {
+    height: inherit;
+}
+
+#footer table tr td a img {
+    width: 100%;
+    height: auto;
+}
+
+
+#footer table tr td {
+   /* background: #202020*/
+}
