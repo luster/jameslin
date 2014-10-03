@@ -32,12 +32,22 @@ body {
 }
 
 #nav table {
-    margin: 0 auto 5px;
+    margin: 0 auto;
     font-weight: 600;
+    text-align: center;
+}
+
+#nav table:first-child tr td {
+    padding-top: 10px;
+}
+
+#nav table:nth-child(2) tr td {
+    padding-bottom: 10px;
 }
 
 #nav table tr td {
-    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #content {
@@ -70,7 +80,7 @@ div#footer table tbody tr td a img {
 
 #landing {
     margin: 0 auto;
-    width: 400px;
+    /*width: 400px;*/
 }
 
 #landing div {
@@ -119,4 +129,9 @@ table {
 
 #footer table tr td {
    /* background: #202020*/
+}
+
+@media screen and (max-width: 600px) {
+    img { max-width: 100%; }
+    #header span { padding-left: 0; padding-bottom: 5px;}
 }
