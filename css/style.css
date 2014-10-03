@@ -39,10 +39,15 @@ body {
 
 #nav table:first-child tr td {
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #nav table:nth-child(2) tr td {
-    padding-bottom: 10px;
+}
+
+#nav table:nth-child(2) td {
+    position: relative;
+    top: -10px;
 }
 
 #nav table tr td {
